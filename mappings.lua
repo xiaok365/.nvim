@@ -32,6 +32,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-d>"] = { "<C-d>zz", desc = "move down" },
+    ["<C-u>"] = { "<C-u>zz", desc = "move up" },
+    ["n"] = { "nzzzv" },
+    ["N"] = { "Nzzzv" },
   },
   t = {
     -- setting a mapping to false will disable it
