@@ -40,6 +40,22 @@ return {
     ["<leader>x"] = { [["_d]] },
     ["<leader>Y"] = { [["+Y]] },
     ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]] },
+    ["<leader>a"] = {
+      function() require("harpoon.mark").add_file() end,
+      desc = "Add file to harpoon",
+    },
+    ["<leader>r"] = {
+      function() require("harpoon.ui").toggle_quick_menu() end,
+      desc = "List Harpoon file",
+    },
+    ["<leader>j"] = {
+      function() require("harpoon.ui").nav_prev() end,
+      desc = "Prev Harpoon file",
+    },
+    ["<leader>k"] = {
+      function() require("harpoon.ui").nav_next() end,
+      desc = "Next Harpoon file",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
