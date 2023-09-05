@@ -36,9 +36,22 @@ return {
     ["<C-u>"] = { "<C-u>zz", desc = "move up" },
     ["n"] = { "nzzzv" },
     ["N"] = { "Nzzzv" },
+    ["<leader>y"] = { [["+y]] },
+    ["<leader>x"] = { [["_d]] },
+    ["<leader>Y"] = { [["+Y]] },
+    ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]] },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+  },
+  v = {
+    ["J"] = { ":m '>+1<CR>gv=gv" },
+    ["K"] = { ":m '<-2<CR>gv=gv" },
+    ["<leader>y"] = { [["+y]] },
+    ["<leader>x"] = { [["_d]] },
+  },
+  x = {
+    ["<leader>i"] = { [["_dP]] },
   },
 }
