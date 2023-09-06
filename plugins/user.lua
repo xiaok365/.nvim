@@ -36,4 +36,15 @@ return {
     opts = {},
     event = "User AstroFile",
   },
+  {
+    "sindrets/diffview.nvim",
+    opts = {},
+    event = "User AstroFile",
+    keys = {
+      { "<leader>D", desc = "Diffview" },
+      { "<leader>Do", "<cmd>DiffviewOpen<cr>", desc = "Open DiffviewOpen" },
+      { "<leader>Dc", "<cmd>DiffviewClose<cr>", desc = "Open DiffviewClose" },
+      { "<leader>Dt", "<cmd>DiffviewToggleFiles<cr>", desc = "Open DiffviewToggleFiles" },
+    },
+  },
 }
