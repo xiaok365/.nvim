@@ -56,6 +56,8 @@ return {
       function() require("harpoon.ui").nav_next() end,
       desc = "Next Harpoon file",
     },
+    ["<Enter>"] = { [[o<ESC>]] },
+    ["<S-Enter>"] = { [[O<ESC>]] },
   },
   t = {
     -- setting a mapping to false will disable it
