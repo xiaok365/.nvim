@@ -79,4 +79,7 @@ return {
   x = {
     -- ["<leader>i"] = { [["_dP]] },
   },
+  i = {
+    ["<C-c>"] = { "<ESC>", desc = "ESC" },
+  },
 }
