@@ -41,10 +41,10 @@ return {
     opts = {},
     event = "User AstroFile",
     keys = {
-      { "<leader>D", desc = "Diffview" },
-      { "<leader>Do", "<cmd>DiffviewOpen<cr>", desc = "Open DiffviewOpen" },
-      { "<leader>Dc", "<cmd>DiffviewClose<cr>", desc = "Open DiffviewClose" },
-      { "<leader>Dt", "<cmd>DiffviewToggleFiles<cr>", desc = "Open DiffviewToggleFiles" },
+      { "<leader>v", desc = "Diffview" },
+      { "<leader>vo", "<cmd>DiffviewOpen<cr>", desc = "Open DiffviewOpen" },
+      { "<leader>vc", "<cmd>DiffviewClose<cr>", desc = "Open DiffviewClose" },
+      { "<leader>vt", "<cmd>DiffviewToggleFiles<cr>", desc = "Open DiffviewToggleFiles" },
     },
   },
 }
