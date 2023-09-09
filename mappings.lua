@@ -36,9 +36,11 @@ return {
     ["<C-u>"] = { "<C-u>zz", desc = "move up" },
     ["n"] = { "nzzzv" },
     ["N"] = { "Nzzzv" },
-    ["<leader>y"] = { [["+y]] },
-    ["<leader>x"] = { [["_d]] },
-    ["<leader>Y"] = { [["+Y]] },
+    -- ["<leader>y"] = { [["+y]] },
+    -- ["<leader>x"] = { [["_d]] },
+    ["<C-x>"] = { "dd" },
+    ["d"] = { [["_d]] },
+    -- ["<leader>Y"] = { [["+Y]] },
     ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]] },
     ["<leader>a"] = {
       function() require("harpoon.mark").add_file() end,
@@ -68,10 +70,12 @@ return {
   v = {
     ["J"] = { ":m '>+1<CR>gv=gv" },
     ["K"] = { ":m '<-2<CR>gv=gv" },
-    ["<leader>y"] = { [["+y]] },
-    ["<leader>x"] = { [["_d]] },
+    ["<C-x>"] = { "d" },
+    ["d"] = { [["_d]] },
+    -- ["<leader>y"] = { [["+y]] },
+    -- ["<leader>x"] = { [["_d]] },
   },
   x = {
-    ["<leader>i"] = { [["_dP]] },
+    -- ["<leader>i"] = { [["_dP]] },
   },
 }
