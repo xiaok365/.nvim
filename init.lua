@@ -20,7 +20,8 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   -- colorscheme = "nightfox",
-  colorscheme = "tokyonight",
+  -- colorscheme = "tokyonight",
+  colorscheme = "everforest",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
