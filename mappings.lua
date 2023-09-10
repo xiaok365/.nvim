@@ -61,7 +61,8 @@ return {
     ["<Enter>"] = { [[o<ESC>]] },
     ["<S-Enter>"] = { [[O<ESC>]] },
     ["<leader>Y"] = { [[:%y+<CR><CR>]] },
-    ["<leader>D"] = { [[:%d<CR>]] },
+    -- ["<leader>D"] = { [[:%d<CR>]] },
+    ["<leader>D"] = { [[gg"_dG]] },
     ["<leader>V"] = { [[ggVG]] },
   },
   t = {
