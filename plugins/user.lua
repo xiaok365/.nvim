@@ -59,7 +59,16 @@ return {
   {
     "Civitasv/cmake-tools.nvim",
     opts = {},
-    cmd = { "CMakeOpen", "CMakeClose", "CMakeGenerate", "CMakeBuild", "CMakeRun", "CMakeDebug" },
+    cmd = {
+      "CMakeOpen",
+      "CMakeClose",
+      "CMakeGenerate",
+      "CMakeBuild",
+      "CMakeRun",
+      "CMakeDebug",
+      "CMakeClean",
+      "CMakeStop",
+    },
     keys = {
       { "<leader>j", desc = "CMake" },
       { "<leader>jo", "<cmd>CMakeOpen<cr>", desc = "CMakeOpen" },

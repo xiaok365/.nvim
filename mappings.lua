@@ -60,8 +60,9 @@ return {
     },
     ["<Enter>"] = { [[o<ESC>]] },
     ["<S-Enter>"] = { [[O<ESC>]] },
-    ["<leader>A"] = { [[:%y+<CR><CR>]] },
+    ["<leader>Y"] = { [[:%y+<CR><CR>]] },
     ["<leader>D"] = { [[:%d<CR>]] },
+    ["<leader>V"] = { [[ggVG]] },
   },
   t = {
     -- setting a mapping to false will disable it
