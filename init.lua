@@ -89,5 +89,8 @@ return {
     vim.api.nvim_create_autocmd("BufEnter", {
       command = "set rnu nu",
     })
+    local capabilities = vim.lsp.protocol.make_client_capabilities()
+    capabilities.offsetEncoding = { "utf-16" }
+    require("lspconfig").clangd.setup { capabilities = capabilities }
   end,
 }

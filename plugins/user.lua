@@ -56,4 +56,17 @@ return {
       { "<leader>i", "<cmd>ASToggle<cr>", desc = "Open AutoSave" },
     },
   },
+  {
+    "Civitasv/cmake-tools.nvim",
+    opts = {},
+    cmd = { "CMakeOpen", "CMakeClose", "CMakeGenerate", "CMakeBuild", "CMakeRun", "CMakeDebug" },
+    keys = {
+      { "<leader>j", desc = "CMake" },
+      { "<leader>jo", "<cmd>CMakeOpen<cr>", desc = "CMakeOpen" },
+      { "<leader>jc", "<cmd>CMakeClose<cr>", desc = "CMakeClose" },
+      { "<leader>jb", "<cmd>CMakeBuild<cr>", desc = "CMakeBuild" },
+      { "<leader>jr", "<cmd>CMakeRun<cr>", desc = "CMakeRun" },
+      { "<leader>jd", "<cmd>CMakeDebug<cr>", desc = "CMakeDebug" },
+    },
+  },
 }
