@@ -84,12 +84,13 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
-    vim.api.nvim_create_autocmd("VimEnter", {
-      command = "set nornu nonu | Neotree toggle",
-    })
-    vim.api.nvim_create_autocmd("BufEnter", {
-      command = "set rnu nu",
-    })
+    -- open neotree when enter
+    -- vim.api.nvim_create_autocmd("VimEnter", {
+    --   command = "set nornu nonu | Neotree toggle",
+    -- })
+    -- vim.api.nvim_create_autocmd("BufEnter", {
+    --   command = "set rnu nu",
+    -- })
     local capabilities = vim.lsp.protocol.make_client_capabilities()
     capabilities.offsetEncoding = { "utf-16" }
     require("lspconfig").clangd.setup { capabilities = capabilities }
