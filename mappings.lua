@@ -50,11 +50,11 @@ return {
       function() require("harpoon.ui").toggle_quick_menu() end,
       desc = "List Harpoon file",
     },
-    ["<C-j>"] = {
+    ["<C-,>"] = {
       function() require("harpoon.ui").nav_prev() end,
       desc = "Prev Harpoon file",
     },
-    ["<C-k>"] = {
+    ["<C-.>"] = {
       function() require("harpoon.ui").nav_next() end,
       desc = "Next Harpoon file",
     },
