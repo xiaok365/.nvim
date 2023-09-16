@@ -5,7 +5,7 @@ return {
     config = function() require("auto-save").setup() end,
     cmd = { "ASToggle" },
     keys = {
-      { "<leader>i", "<cmd>ASToggle<cr>", desc = "Open AutoSave" },
+      { "<leader>uA", "<cmd>ASToggle<cr>", desc = "Open AutoSave" },
     },
   },
 }
