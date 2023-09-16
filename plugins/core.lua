@@ -19,6 +19,7 @@ return {
       }
       return opts
     end,
+    config = function() require("alpha").setup(require("alpha.themes.startify").config) end,
   },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
