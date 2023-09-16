@@ -19,7 +19,7 @@ return {
   end,
   keys = {
     { "<leader>sa", "<cmd>CellularAutomaton make_it_rain<CR>", desc = "make it rain" },
-    { "<leader>sb", "<cmd>CellularAutomaton game_of_life<CR>", desc = "game of life" },
-    { "<leader>sc", "<cmd>CellularAutomaton slide<CR>", desc = "slide" },
+    { "<leader>sg", "<cmd>CellularAutomaton game_of_life<CR>", desc = "game of life" },
+    { "<leader>sl", "<cmd>CellularAutomaton slide<CR>", desc = "slide" },
   },
 }
