@@ -29,10 +29,10 @@ return {
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
-    ["<leader>b"] = { name = "Buffers" },
-    ["<leader>v"] = { name = "Diffview", desc = "Diffview" },
-    ["<leader>h"] = { name = "Harpoon", desc = "Harpoon" },
-    ["<leader>s"] = { name = "Customize", desc = "Customize" },
+    -- ["<leader>b"] = { name = "Buffers" },
+    -- ["<leader>v"] = { name = "Diffview", desc = "Diffview" },
+    -- ["<leader>h"] = { name = "Harpoon", desc = "Harpoon" },
+    -- ["<leader>s"] = { name = "Customize", desc = "Customize" },
 
     ["<C-d>"] = { "<C-d>zz", desc = "move down" },
     ["<C-u>"] = { "<C-u>zz", desc = "move up" },

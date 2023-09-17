@@ -5,7 +5,7 @@ return {
     opts = {},
     event = "User AstroFile",
     keys = {
-      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
+      { "<leader>fT", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
 }
