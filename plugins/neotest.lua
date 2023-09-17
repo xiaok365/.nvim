@@ -20,7 +20,6 @@ return {
         },
       }, neotest_ns)
       require("neotest").setup {
-        -- your neotest config here
         adapters = {
           require "neotest-go",
           require "neotest-java",
