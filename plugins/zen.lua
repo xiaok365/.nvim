@@ -1,7 +1,14 @@
 return {
   "folke/zen-mode.nvim",
-  opts = {},
+  opts = {
+    window = {
+      width = 0.8,
+    },
+    plugins = {
+      tmux = { enabled = true }, -- disables the tmux statusline
+    },
+  },
   keys = {
-    { "zu", "<cmd>ZenMode<CR>", desc = "ZenMode" },
+    { "zn", "<cmd>ZenMode<CR>", desc = "ZenMode" },
   },
 }
