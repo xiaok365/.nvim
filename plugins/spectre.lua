@@ -1,6 +1,5 @@
 return {
   "nvim-pack/nvim-spectre",
-  event = "User AstroFile",
   keys = {
     { "<leader>ss", '<cmd>lua require("spectre").toggle()<CR>', desc = "Toggle Spectre" },
     {
