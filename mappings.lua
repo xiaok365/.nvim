@@ -36,6 +36,8 @@ return {
 
     ["<C-d>"] = { "<C-d>zz", desc = "move down" },
     ["<C-u>"] = { "<C-u>zz", desc = "move up" },
+    ["<C-q>"] = { "<nop>" },
+    ["Q"] = { "<nop>" },
     ["n"] = { "nzzzv" },
     ["N"] = { "Nzzzv" },
     ["d"] = { [["_d]] },
