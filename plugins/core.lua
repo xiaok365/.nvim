@@ -77,7 +77,7 @@ return {
         v = { name = "Diffview" },
       }, { mode = "n", prefix = "<leader>" })
       wk.register({
-        h = { name = "Harpoon" },
+        i = { name = "Harpoon" },
       }, { mode = "n", prefix = "<leader>" })
       wk.register({
         x = { name = "Test" },
